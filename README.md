@@ -16,7 +16,7 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
   - you can upload imgs to [https://imgurl.org/](https://imgurl.org/), then copy the address to `osumode.preferImgList`
 - Set back img frequency, add `"osumode.imgInterval" : number`, `number` can be any number,better not too small or too big
 - To disable default imgs(by the extension), add `"osumode.enableDefaultImgs": false` to your settings.
-- To disable randomly imgs, add `"osumode.enableRandomPlayImgs": false` to your settings, default `true` and imgs will be played in order.
+- To disable random imgs, add `"osumode.enableRandomPlayImgs": false` to your settings, default `true` and imgs will be played in order.
 
 ## Features:
 
