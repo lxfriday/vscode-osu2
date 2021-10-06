@@ -7,6 +7,7 @@ export interface ComboMeterConfig {
   // useDefaultImgs?: boolean
   imgInterval: number
   enableDefaultImgs: boolean
+  enableRandomPlayImgs: boolean
 }
 
 const defaultImglist = [
@@ -24,6 +25,7 @@ export class ComboMeter implements Plugin {
     imgList: defaultImglist,
     imgInterval: 50,
     enableDefaultImgs: true,
+    enableRandomPlayImgs: true,
   }
   // default imgs
 
@@ -72,6 +74,10 @@ export class ComboMeter implements Plugin {
     }
 
     this.config.imgInterval = config.get<number>('imgInterval', 50)
+    this.config.enableRandomPlayImgs = config.get<boolean>(
+      'enableRandomPlayImgs',
+      true
+    )
 
     this.activate()
   }
@@ -145,6 +151,10 @@ export class ComboMeter implements Plugin {
     }
 
     this.config.imgInterval = config.get<number>('imgInterval', 50)
+    this.config.enableRandomPlayImgs = config.get<boolean>(
+      'enableRandomPlayImgs',
+      true
+    )
 
     if (this.config.enableComboCounter) {
       this.enabled = true
@@ -225,7 +235,9 @@ export class ComboMeter implements Plugin {
     // }
 
     if (count % this.config.imgInterval === 0) {
-      imgUrl = this.getRandomImg()
+      imgUrl = this.config.enableRandomPlayImgs
+        ? this.getRandomImg()
+        : this.getOrderImg()
     }
 
     /*if(this.orange) {
@@ -367,10 +379,20 @@ export class ComboMeter implements Plugin {
     const imgUrl = this.config.imgList[ind]
     // 去重
     if (this.renderedImage === imgUrl) {
-      ind = ind === len - 1 ? 0 : len + 1
+      ind = ind === len - 1 ? 0 : ind + 1
       return this.config.imgList[ind]
     } else {
       return imgUrl
     }
+  }
+
+  private getOrderImg(): string {
+    const len = this.config.imgList.length
+
+    const prev = this.config.imgList.indexOf(this.renderedImage)
+
+    if (prev === len - 1) return this.config.imgList[0]
+
+    return this.config.imgList[prev + 1]
   }
 }
