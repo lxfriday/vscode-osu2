@@ -75,6 +75,8 @@ Default settings.
 
 ## Changelog:
 
+- v3.3.1
+  - Updated readme and compress package size!
 - v3.3.0
   - Added `enableBackImg`!
 - v3.2.2
