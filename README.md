@@ -67,6 +67,8 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 
 ## Changelog:
 
+- v3.2.1
+  - Fixed background image `z-index`
 - v3.2.0
   - Added `preferImgList`!
   - Added `imgInterval`!
