@@ -6,7 +6,7 @@ However, after being bored and realizing that VSCode was not the only modern edi
 
 I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 
-![DEMO](https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/demo-osu.gif)
+![DEMO](https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/demo-osu.gif)
 
 - To disable OSU mode, add `"osumode.enabled": false` to your settings, default `true`.
 - To disable combo counter, add `"osumode.enableComboCounter": false,` to your settings, default `true`.
