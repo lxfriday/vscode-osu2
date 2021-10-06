@@ -29,6 +29,11 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 
 ## Changelog:
 
+- v3.2.0
+  - Added `preferImgList`!
+  - Added `imgInterval`!
+  - Added `enableDefaultImgs`!
+  - Added `enableRandomPlayImgs`!
 - v3.1.0
   - Updated Settings to be "osumode" instead of "powermode"!
   - Removed existing powermode presets, now you can install Osumode and Powermode separately!

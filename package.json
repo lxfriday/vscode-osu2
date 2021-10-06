@@ -1,24 +1,24 @@
 {
-  "name": "vscode-osu",
-  "displayName": "OSU Mode",
+  "name": "vscode-osu2",
+  "displayName": "OSU Mode2",
   "description": "Hit the code to the beat",
-  "version": "3.1.0",
-  "publisher": "AlexShenVSCode",
+  "version": "3.2.0",
+  "publisher": "lxfridfay",
   "icon": "images/icon-large.png",
   "author": {
-    "name": "Alex Shen",
-    "email": "ao.shen@gmail.com",
-    "url": "https://github.com/ao-shen"
+    "name": "lxfridfay",
+    "email": "liu3248184446@outlook.com",
+    "url": "https://github.com/lxfriday"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ao-shen/vscode-power-mode/issues"
+    "url": "https://github.com/lxfriday/vscode-osu2/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ao-shen/vscode-power-mode.git"
+    "url": "https://github.com/lxfriday/vscode-osu2.git"
   },
-  "homepage": "https://github.com/ao-shen/vscode-power-mode",
+  "homepage": "https://github.com/lxfriday/vscode-osu2",
   "engines": {
     "vscode": "^1.13.0"
   },
