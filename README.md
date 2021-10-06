@@ -8,19 +8,23 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 
 ![DEMO](https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/demo-osu.gif)
 
-To enable OSU mode, add `"osumode.enabled": true` to your settings.
-To disable combo counter, add `"osumode.enableComboCounter": false,` to your settings.
-To enable letter explosions at the cursor when you type, add `"osumode.enableCursorExplosions": true,` to your settings.
-
+- To enable OSU mode, add `"osumode.enabled": true` to your settings.
+- To disable combo counter, add `"osumode.enableComboCounter": false,` to your settings.
+- To enable letter explosions at the cursor when you type, add `"osumode.enableCursorExplosions": true,` to your settings.
+- Set your own imgs, add `"osumode.preferImgList" : ['https://img.png', ...]` array
+- Set back img frequency, add `"osumode.imgInterval" : number`, `number` can be any number,better not too small or too big
 
 ## Features:
-* NEW: COMBO COUNTER
-* Everything Power Mode has
+
+- NEW: COMBO COUNTER
+- Everything Power Mode has
 
 ## Acknowledgements:
-* Thanks to [@hoovercj](https://github.com/hoovercj) for [Powermode](https://github.com/hoovercj/vscode-power-mode)
+
+- Thanks to [@hoovercj](https://github.com/hoovercj) for [Powermode](https://github.com/hoovercj/vscode-power-mode)
 
 ## Changelog:
+
 - v3.1.0
   - Updated Settings to be "osumode" instead of "powermode"!
   - Removed existing powermode presets, now you can install Osumode and Powermode separately!
