@@ -8,15 +8,23 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 
 ![DEMO](https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/demo-osu.gif)
 
-- To disable OSU mode, add `"osumode.enabled": false` to your settings, default `true`.
-- To disable combo counter, add `"osumode.enableComboCounter": false,` to your settings, default `true`.
-- To disable letter explosions at the cursor when you type, add `"osumode.enableCursorExplosions": false,` to your settings, default `true`.
+- `osumode.enabled`: To disable OSU mode, add `"osumode.enabled": false` to your settings, default `true`.
+- `osumode.enableComboCounter`: To disable combo counter, add `"osumode.enableComboCounter": false` to your settings, default `true`.
+- `osumode.enableCursorExplosions`: To disable letter explosions at the cursor when you type, add `"osumode.enableCursorExplosions": false,` to your settings, default `true`.
+- `osumode.enableBackImg`: To disable back imgs when you type, add `"osumode.enableBackImg": false` to your settings, default `true`.
+
+The four settings above are enabled by default.`osumode.enabled` controlls the whole extension, if it is set `false`, the extension will not work.
+
 - Set your own imgs, add `"osumode.preferImgList": ['https://img.png', ...]` array
   - note: imgs can not be local imgs, `C:\\folder\\xzxzx.png`... will be useless, imgs must be `http://fdsfsdf.png`
   - you can upload imgs to [https://imgurl.org/](https://imgurl.org/), then copy the address to `osumode.preferImgList`
 - Set back img frequency, add `"osumode.imgInterval" : number`, `number` can be any number,better not too small or too big, default `50`.
 - To disable default imgs(by the extension), add `"osumode.enableDefaultImgs": false` to your settings, default `true`.
 - To disable random imgs, add `"osumode.enableRandomPlayImgs": false` to your settings, default `true` and imgs will be played in order, default `true`.
+
+Default settings.
+
+![default settings](https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/default-settings.jpg)
 
 在 [`imgList.json`](https://github.com/lxfriday/vscode-osu2/blob/master/imgList.json) 文件中有一个图片列表，存储了一些王者荣耀英雄皮肤图片。如果你也喜欢，可以尝试替换使用。
 
@@ -67,6 +75,10 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 
 ## Changelog:
 
+- v3.3.0
+  - Added `enableBackImg`!
+- v3.2.2
+  - Updated readme gif
 - v3.2.1
   - Fixed background image `z-index`
 - v3.2.0

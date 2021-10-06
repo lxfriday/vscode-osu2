@@ -3,6 +3,7 @@ import { Plugin } from './plugin'
 
 export interface ComboMeterConfig {
   enableComboCounter?: boolean
+  enableBackImg?: boolean
   imgList: Array<string>
   // useDefaultImgs?: boolean
   imgInterval: number
@@ -11,13 +12,13 @@ export interface ComboMeterConfig {
 }
 
 const defaultImglist = [
-  'https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/Character_Keqing_Portrait.png',
-  'https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/Character_Diona_Portrait.png',
-  'https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/Character_Qiqi_Portrait.png',
-  'https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/Character_Klee_Portrait.png',
-  'https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/Character_Fischl_Portrait.png',
-  'https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/Character_Hu_Tao_Portrait.png',
-  'https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/Character_Ganyu_Portrait.png',
+  'https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Keqing_Portrait.png',
+  'https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Diona_Portrait.png',
+  'https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Qiqi_Portrait.png',
+  'https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Klee_Portrait.png',
+  'https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Fischl_Portrait.png',
+  'https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Hu_Tao_Portrait.png',
+  'https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Ganyu_Portrait.png',
 ]
 
 export class ComboMeter implements Plugin {
@@ -26,6 +27,7 @@ export class ComboMeter implements Plugin {
     imgInterval: 50,
     enableDefaultImgs: true,
     enableRandomPlayImgs: true,
+    enableComboCounter: true,
   }
   // default imgs
 
@@ -61,23 +63,28 @@ export class ComboMeter implements Plugin {
   })
 
   constructor(config: vscode.WorkspaceConfiguration) {
-    this.config.enableDefaultImgs = config.get<boolean>(
-      'enableDefaultImgs',
-      true
-    )
-    if (this.config.enableDefaultImgs) {
-      this.config.imgList = config
-        .get<Array<string>>('preferImgList', [])
-        .concat(defaultImglist)
-    } else {
-      this.config.imgList = config.get<Array<string>>('preferImgList', [])
-    }
+    // this.config.enableComboCounter = config.get<boolean>(
+    //   'enableComboCounter',
+    //   true
+    // )
+    // this.config.enableBackImg = config.get<boolean>('enableBackImg', true)
+    // this.config.enableDefaultImgs = config.get<boolean>(
+    //   'enableDefaultImgs',
+    //   true
+    // )
+    // if (this.config.enableDefaultImgs) {
+    //   this.config.imgList = config
+    //     .get<Array<string>>('preferImgList', [])
+    //     .concat(defaultImglist)
+    // } else {
+    //   this.config.imgList = config.get<Array<string>>('preferImgList', [])
+    // }
 
-    this.config.imgInterval = config.get<number>('imgInterval', 50)
-    this.config.enableRandomPlayImgs = config.get<boolean>(
-      'enableRandomPlayImgs',
-      true
-    )
+    // this.config.imgInterval = config.get<number>('imgInterval', 50)
+    // this.config.enableRandomPlayImgs = config.get<boolean>(
+    //   'enableRandomPlayImgs',
+    //   true
+    // )
 
     this.activate()
   }
@@ -135,8 +142,9 @@ export class ComboMeter implements Plugin {
   public onDidChangeConfiguration = (config: vscode.WorkspaceConfiguration) => {
     this.config.enableComboCounter = config.get<boolean>(
       'enableComboCounter',
-      false
+      true
     )
+    this.config.enableBackImg = config.get<boolean>('enableBackImg', true)
 
     this.config.enableDefaultImgs = config.get<boolean>(
       'enableDefaultImgs',
@@ -156,7 +164,7 @@ export class ComboMeter implements Plugin {
       true
     )
 
-    if (this.config.enableComboCounter) {
+    if (this.config.enableComboCounter || this.config.enableBackImg) {
       this.enabled = true
       this.activate()
     } else {
@@ -193,8 +201,14 @@ export class ComboMeter implements Plugin {
     // If the combo count changes, however, create a new decoration
     if (this.combo !== this.renderedComboCount) {
       this.renderedComboCount = this.combo
-      this.createComboCountDecoration(this.combo, ranges, editor)
-      this.createComboTitleDecoration(this.combo, ranges, editor) //^^^ add counter value for change title
+      // 数字
+      if (this.config.enableComboCounter) {
+        this.createComboCountDecoration(this.combo, ranges, editor)
+      }
+      if (this.config.enableBackImg) {
+        // 背景图
+        this.createComboTitleDecoration(this.combo, ranges, editor) //^^^ add counter value for change title
+      }
     }
   }
 

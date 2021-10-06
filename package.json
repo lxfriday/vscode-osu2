@@ -2,7 +2,7 @@
   "name": "vscode-osu2",
   "displayName": "OSU Mode2",
   "description": "Hit the code to the beat",
-  "version": "3.2.1",
+  "version": "3.3.0",
   "publisher": "lxfriday",
   "icon": "images/icon-large.png",
   "author": {
@@ -66,9 +66,14 @@
           "description": "Set to true to enable letter explosions at the cursor while typing"
         },
         "osumode.enableComboCounter": {
-          "type": "false",
+          "type": "boolean",
           "default": true,
           "description": "Set to true to enable showing the combo in the editor"
+        },
+        "osumode.enableBackImg": {
+          "type": "boolean",
+          "default": true,
+          "description": "是否启用背景图切换效果"
         },
         "osumode.preferImgList": {
           "type": "array",
