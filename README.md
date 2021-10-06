@@ -18,6 +18,44 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 - To disable default imgs(by the extension), add `"osumode.enableDefaultImgs": false` to your settings, default `true`.
 - To disable random imgs, add `"osumode.enableRandomPlayImgs": false` to your settings, default `true` and imgs will be played in order, default `true`.
 
+在 [`imgList.json`]('./imgList.json) 文件中有一个图片列表，存储了一些王者荣耀英雄皮肤图片。如果你也喜欢，可以尝试替换使用。
+
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/1631544621627716b636092860_%E5%89%AF%E6%9C%AC2.png"  width="300"/></div>
+
+<details>
+<summary>展开查看 （点我 点我）</summary>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/1631544621627716b636092860_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(33)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(35)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(11)_%E5%89%AF%E6%9C%AC.png" width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(15)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(16)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(17)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(18)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(20)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(21)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(24)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(25)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(27)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(28)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(29)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(32)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(34)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(36)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(37)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(37)_%E5%89%AF%E6%9C%AC2.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(38)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(40)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(6)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(9)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/1631544621627716b636092860_%E5%89%AF%E6%9C%AC2.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(7)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(33).jpg"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(37).jpg"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(38).jpg"  width="300"/></div>
+<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(35).jpg"  width="300"/></div>
+</details>
+
 ## Features:
 
 - NEW: COMBO COUNTER
