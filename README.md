@@ -8,15 +8,15 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 
 ![DEMO](https://raw.githubusercontent.com/ao-shen/vscode-power-mode/master/images/demo-osu.gif)
 
-- To enable OSU mode, add `"osumode.enabled": true` to your settings.
-- To disable combo counter, add `"osumode.enableComboCounter": false,` to your settings.
-- To enable letter explosions at the cursor when you type, add `"osumode.enableCursorExplosions": true,` to your settings.
+- To disable OSU mode, add `"osumode.enabled": false` to your settings, default `true`.
+- To disable combo counter, add `"osumode.enableComboCounter": false,` to your settings, default `true`.
+- To disable letter explosions at the cursor when you type, add `"osumode.enableCursorExplosions": false,` to your settings, default `true`.
 - Set your own imgs, add `"osumode.preferImgList": ['https://img.png', ...]` array
   - note: imgs can not be local imgs, `C:\\folder\\xzxzx.png`... will be useless, imgs must be `http://fdsfsdf.png`
   - you can upload imgs to [https://imgurl.org/](https://imgurl.org/), then copy the address to `osumode.preferImgList`
-- Set back img frequency, add `"osumode.imgInterval" : number`, `number` can be any number,better not too small or too big
-- To disable default imgs(by the extension), add `"osumode.enableDefaultImgs": false` to your settings.
-- To disable random imgs, add `"osumode.enableRandomPlayImgs": false` to your settings, default `true` and imgs will be played in order.
+- Set back img frequency, add `"osumode.imgInterval" : number`, `number` can be any number,better not too small or too big, default `50`.
+- To disable default imgs(by the extension), add `"osumode.enableDefaultImgs": false` to your settings, default `true`.
+- To disable random imgs, add `"osumode.enableRandomPlayImgs": false` to your settings, default `true` and imgs will be played in order, default `true`.
 
 ## Features:
 

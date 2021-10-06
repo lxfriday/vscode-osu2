@@ -75,7 +75,7 @@ function onDidChangeConfiguration() {
 
   const oldEnabled = enabled
 
-  enabled = config.get<boolean>('enabled', false)
+  enabled = config.get<boolean>('enabled', true)
   comboThreshold = config.get<number>('comboThreshold', 0)
 
   // Switching from disabled to enabled

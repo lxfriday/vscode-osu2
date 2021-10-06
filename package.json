@@ -48,7 +48,7 @@
       "title": "OSU Mode",
       "properties": {
         "osumode.enabled": {
-          "default": false,
+          "default": true,
           "type": "boolean",
           "description": "Enable to activate OSU MODE!!!"
         },
@@ -62,12 +62,12 @@
         },
         "osumode.enableCursorExplosions": {
           "type": "boolean",
-          "default": false,
+          "default": true,
           "description": "Set to true to enable letter explosions at the cursor while typing"
         },
         "osumode.enableComboCounter": {
-          "type": "boolean",
-          "default": false,
+          "type": "false",
+          "default": true,
           "description": "Set to true to enable showing the combo in the editor"
         },
         "osumode.preferImgList": {
