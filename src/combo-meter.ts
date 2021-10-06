@@ -6,6 +6,7 @@ export interface ComboMeterConfig {
   imgList: Array<string>
   // useDefaultImgs?: boolean
   imgInterval: number
+  enableDefaultImgs: boolean
 }
 
 const defaultImglist = [
@@ -22,6 +23,7 @@ export class ComboMeter implements Plugin {
   private config: ComboMeterConfig = {
     imgList: defaultImglist,
     imgInterval: 50,
+    enableDefaultImgs: true,
   }
   // default imgs
 
@@ -57,10 +59,20 @@ export class ComboMeter implements Plugin {
   })
 
   constructor(config: vscode.WorkspaceConfiguration) {
-    this.config.imgList = config
-      .get<Array<string>>('preferImgList', [])
-      .concat(defaultImglist)
+    this.config.enableDefaultImgs = config.get<boolean>(
+      'enableDefaultImgs',
+      true
+    )
+    if (this.config.enableDefaultImgs) {
+      this.config.imgList = config
+        .get<Array<string>>('preferImgList', [])
+        .concat(defaultImglist)
+    } else {
+      this.config.imgList = config.get<Array<string>>('preferImgList', [])
+    }
+
     this.config.imgInterval = config.get<number>('imgInterval', 50)
+
     this.activate()
   }
 
@@ -119,9 +131,19 @@ export class ComboMeter implements Plugin {
       'enableComboCounter',
       false
     )
-    this.config.imgList = config
-      .get<Array<string>>('preferImgList', [])
-      .concat(defaultImglist)
+
+    this.config.enableDefaultImgs = config.get<boolean>(
+      'enableDefaultImgs',
+      true
+    )
+    if (this.config.enableDefaultImgs) {
+      this.config.imgList = config
+        .get<Array<string>>('preferImgList', [])
+        .concat(defaultImglist)
+    } else {
+      this.config.imgList = config.get<Array<string>>('preferImgList', [])
+    }
+
     this.config.imgInterval = config.get<number>('imgInterval', 50)
 
     if (this.config.enableComboCounter) {

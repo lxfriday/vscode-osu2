@@ -80,6 +80,11 @@
           "default": 50,
           "description": "多少次输入之后会触发效果"
         },
+        "osumode.enableDefaultImgs": {
+          "type": "boolean",
+          "default": true,
+          "description": "是否启用默认的背景图片"
+        },
         "osumode.maxExplosions": {
           "type": "number",
           "default": 1,
