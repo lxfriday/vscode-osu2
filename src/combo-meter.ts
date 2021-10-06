@@ -55,7 +55,7 @@ export class ComboMeter implements Plugin {
     ['font-weight']: '900',
 
     // width: "50px",
-    ['z-index']: 1,
+    ['z-index']: 2,
     ['pointer-events']: 'none',
     ['text-align']: 'right',
   })
@@ -276,7 +276,7 @@ export class ComboMeter implements Plugin {
           ['background-repeat']: 'no-repeat',
           ['background-size']: 'contain',
           ['background-position']: 'right',
-          ['z-index']: -1,
+          ['z-index']: 1,
           //["background-color"]: `#ff000010`,
           ['right']: `${-posX}vh`,
         }
