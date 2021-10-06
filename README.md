@@ -11,7 +11,9 @@ I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
 - To enable OSU mode, add `"osumode.enabled": true` to your settings.
 - To disable combo counter, add `"osumode.enableComboCounter": false,` to your settings.
 - To enable letter explosions at the cursor when you type, add `"osumode.enableCursorExplosions": true,` to your settings.
-- Set your own imgs, add `"osumode.preferImgList" : ['https://img.png', ...]` array
+- Set your own imgs, add `"osumode.preferImgList": ['https://img.png', ...]` array
+  - note: imgs can not be local imgs, `C:\\folder\\xzxzx.png`... will be useless, imgs must be `http://fdsfsdf.png`
+  - you can upload imgs to [https://imgurl.org/](https://imgurl.org/), then copy the address to `osumode.preferImgList`
 - Set back img frequency, add `"osumode.imgInterval" : number`, `number` can be any number,better not too small or too big
 
 ## Features:
