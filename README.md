@@ -1,10 +1,4 @@
-# VSCODE OSU Mode!!!
-
-OSU Mode is a fork of Power Mode, they said it shouldn't be done...
-
-However, after being bored and realizing that VSCode was not the only modern editor without it, I knew I didn't have to try, but I couldn't let VSCode live in the shadow of its big brother or Atom.
-
-I present you, **VSCODE OSU MODE**!!! (now with Genshin Impact Characters!)
+# VSCODE OSU Mode
 
 ![DEMO](https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/demo-osu.gif)
 
@@ -64,23 +58,27 @@ Default settings.
 <div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(35).jpg"  width="300"/></div>
 </details>
 
-## Features:
+## Notice
 
-- NEW: COMBO COUNTER
-- Everything Power Mode has
+内置图片存放于 GitHub 图床，在国内可能由于某些原因加载速度会很慢，需要耐心等待。你可以试着打开下面的图片测试你的电脑能否正常显示背景图片。
+
+[点我测试](https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Keqing_Portrait.png)
 
 ## Acknowledgements:
 
 - Thanks to [@hoovercj](https://github.com/hoovercj) for [Powermode](https://github.com/hoovercj/vscode-power-mode)
+- Thanks to [@ao-shen](https://github.com/ao-shen) for [OSU Mode](https://github.com/ao-shen/vscode-power-mode)
 
 ## Changelog:
 
+- v3.3.2
+  - Updated readme and icon!
 - v3.3.1
   - Updated readme and compress package size!
 - v3.3.0
   - Added `enableBackImg`!
 - v3.2.2
-  - Updated readme gif
+  - Updated readme gif!
 - v3.2.1
   - Fixed background image `z-index`
 - v3.2.0
