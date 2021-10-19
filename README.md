@@ -71,6 +71,8 @@ Default settings.
 
 ## Changelog:
 
+- v3.3.3
+  - Updated icon!
 - v3.3.2
   - Updated readme and icon!
 - v3.3.1
