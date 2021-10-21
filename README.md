@@ -26,36 +26,14 @@ Default settings.
 
 <details>
 <summary>展开查看 （点我 点我）</summary>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/1631544621627716b636092860_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(33)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(35)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(11)_%E5%89%AF%E6%9C%AC.png" width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(15)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(16)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(17)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(18)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(20)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(21)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(24)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(25)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(27)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(28)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(29)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(32)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(34)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(36)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(37)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(37)_%E5%89%AF%E6%9C%AC2.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(38)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(40)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(6)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(9)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/1631544621627716b636092860_%E5%89%AF%E6%9C%AC2.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(7)_%E5%89%AF%E6%9C%AC.png"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(33).jpg"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(37).jpg"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(38).jpg"  width="300"/></div>
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/0%20(35).jpg"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/1.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/3.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/4.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/5.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/6.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/7.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/8.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/9.png"  width="300"/></div>
 </details>
 
 ## Notice
