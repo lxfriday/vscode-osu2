@@ -22,7 +22,7 @@ Default settings.
 
 在 [`imgList.json`](https://github.com/lxfriday/vscode-osu2/blob/master/imgList.json) 文件中有一个图片列表，存储了一些王者荣耀英雄皮肤图片。如果你也喜欢，可以尝试替换使用。【请求量有点大，所以我换到了 github 图床】
 
-<div><img src="https://qiniu1.lxfriday.xyz/osu-imgs/1631544621627716b636092860_%E5%89%AF%E6%9C%AC2.png"  width="300"/></div>
+<div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/1.png"  width="300"/></div>
 
 <details>
 <summary>展开查看 （点我 点我）</summary>
@@ -49,6 +49,8 @@ Default settings.
 
 ## Changelog:
 
+- v3.3.5
+  - Updated readme!
 - v3.3.4
   - Updated imgList.json!
 - v3.3.3
