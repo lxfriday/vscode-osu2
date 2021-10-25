@@ -20,7 +20,10 @@ Default settings.
 
 ![default settings](https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/default-settings.jpg)
 
-在 [`imgList.json`](https://github.com/lxfriday/vscode-osu2/blob/master/imgList.json) 文件中有一个图片列表，存储了一些王者荣耀英雄皮肤图片。如果你也喜欢，可以尝试替换使用。【请求量有点大，所以我换到了 github 图床】
+在 **`imgList.json`** 文件中有一个图片列表，存储了一些王者荣耀英雄皮肤图片。如果你也喜欢，可以尝试替换使用。【请求量有点大，所以我换到了 GitHub、Gitee 图床】
+
+- **GitHub 图床** [imgList.json](https://github.com/lxfriday/vscode-osu2/blob/master/imgList.json) 可能存在访问不畅通（for global users）
+- **Gitee 图床** [imgList.json](https://gitee.com/lxfriday/vscode-osu-mode2/blob/master/imgList-china.json) （for china users）国内流畅访问
 
 <div><img src="https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/wangzhe/1.png"  width="300"/></div>
 
@@ -42,6 +45,31 @@ Default settings.
 
 [点我测试](https://raw.githubusercontent.com/lxfriday/vscode-osu2/master/images/Character_Keqing_Portrait.png)
 
+如果显示不了可以禁用掉默认的背景图片，然后添加国内（gitee）图床图片。
+
+**操作**
+
+1. 到设置中把 **Enable Default Imgs** 去掉勾选。
+
+```json
+  "osumode.enableDefaultImgs": false,
+```
+
+2. **Prefer Img List** 添加以下图片。
+
+```json
+  "osumode.preferImgList": [
+    "https://gitee.com/lxfriday/vscode-osu-mode2/raw/master/images/Character_Diona_Portrait.png",
+    "https://gitee.com/lxfriday/vscode-osu-mode2/raw/master/images/Character_Fischl_Portrait.png",
+    "https://gitee.com/lxfriday/vscode-osu-mode2/raw/master/images/Character_Ganyu_Portrait.png",
+    "https://gitee.com/lxfriday/vscode-osu-mode2/raw/master/images/Character_Hu_Tao_Portrait.png",
+    "https://gitee.com/lxfriday/vscode-osu-mode2/raw/master/images/Character_Keqing_Portrait.png",
+    "https://gitee.com/lxfriday/vscode-osu-mode2/raw/master/images/Character_Klee_Portrait.png",
+    "https://gitee.com/lxfriday/vscode-osu-mode2/raw/master/images/Character_Qiqi_Portrait.png",
+  ],
+```
+
+
 ## Acknowledgements:
 
 - Thanks to [@hoovercj](https://github.com/hoovercj) for [Powermode](https://github.com/hoovercj/vscode-power-mode)
@@ -49,6 +77,8 @@ Default settings.
 
 ## Changelog:
 
+- v3.3.6
+  - Updated readme, add gitee images!
 - v3.3.5
   - Updated readme!
 - v3.3.4
